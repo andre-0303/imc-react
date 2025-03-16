@@ -12,7 +12,6 @@ function App() {
     setMensagem('');
   }
 
-
   function calcularIMC(){
     const alt = altura / 100;
     const imc = peso / (alt * alt);
